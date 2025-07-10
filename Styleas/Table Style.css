@@ -1,0 +1,36 @@
+table {
+  width: 20%;
+  border-collapse: collapse;
+}
+h2 {
+  text-align: center;
+  color: red;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  margin: 20px 0;
+  padding: auto;
+}
+ul {
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+  padding: 23px;
+}
+table {
+  align-items: center;
+  margin: auto;
+  border: 2px solid black;
+}
+tfoot {
+  text-align: center;
+}
+th {
+  background-color: lightblue;
+  color: black;
+  padding: 10px 20px;
+}
+td,
+th {
+  border: 1px solid blue;
+  padding: 10px 20px;
+}

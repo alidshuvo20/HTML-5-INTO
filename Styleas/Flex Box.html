@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex Box</title>
+  <style>
+    .container {
+      display: flex;
+    }
+
+    .container div {
+      border: 2px solid tomato;
+      height: 50px;
+      font-size: 3em;
+    }
+
+    .box {
+      font-size: 4em;
+      border: 2px solid rgb(114, 255, 71);
+      height: 100px;
+      width: 50px;
+    }
+
+    .box-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    .user-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    .user {
+      border: 2px solid blue;
+      height: 50px;
+      width: 100px;
+      background-color: rgb(0, 21, 255);
+      font-size: medium;
+      text-align: center;
+      line-height: 50px;
+
+    }
+
+    .dead-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .dead {
+      border: 2px solid red;
+      height: 50px;
+      width: 100px;
+      background-color: rgb(255, 0, 0);
+      font-size: medium;
+      text-align: center;
+      line-height: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+  </div>
+  <!-- .box-container  -->
+  <div class="box-container">
+    <!--  .box{$}*6  -->
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    <div class="box">5</div>
+    <div class="box">6</div>
+  </div>
+  <!-- .user-container  -->
+  <div class="user-container">
+    <!-- .user{user-$}*3  -->
+    <div class="user">user-1</div>
+    <div class="user">user-2</div>
+    <div class="user">user-3</div>
+  </div>
+  <!-- .dead-container  -->
+  <div class="dead-container">
+    <!-- .dead{dead-$}*20 -->
+    <div class="dead">dead-1</div>
+    <div class="dead">dead-2</div>
+    <div class="dead">dead-3</div>
+    <div class="dead">dead-4</div>
+    <div class="dead">dead-5</div>
+    <div class="dead">dead-6</div>
+    <div class="dead">dead-7</div>
+    <div class="dead">dead-8</div>
+    <div class="dead">dead-9</div>
+    <div class="dead">dead-10</div>
+    <div class="dead">dead-11</div>
+    <div class="dead">dead-12</div>
+    <div class="dead">dead-13</div>
+    <div class="dead">dead-14</div>
+    <div class="dead">dead-15</div>
+    <div class="dead">dead-16</div>
+    <div class="dead">dead-17</div>
+    <div class="dead">dead-18</div>
+    <div class="dead">dead-19</div>
+    <div class="dead">dead-20</div>
+  </div>
+</body>
+
+</html>
